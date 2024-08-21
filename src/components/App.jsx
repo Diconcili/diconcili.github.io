@@ -41,7 +41,7 @@ function App() {
 
       <Habilidades></Habilidades>
 
-      <Navbar expand="lg" className="bg-body-tertiary" style={{ width: 1065, position: 'absolute', top: '39%', left: '30%'}}>
+      <Navbar boder="info" expand="lg" className="bg-body-tertiary" style={{ width: 1065, position: 'absolute', top: '39%', left: '30%'}}>
         <Container>
           <Navbar.Brand href="#home">Áreas de Interesse e outras informações</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -56,7 +56,7 @@ function App() {
         </Container>
       </Navbar>  
 
-      <Card style={{ height:405, width: 1065, position: 'absolute', top: '44%', left: '30%'}}>
+      <Card border="info" style={{ height:405, width: 1065, position: 'absolute', top: '44%', left: '30%'}}>
         <Card.Title><h2>{conteudo[itemSelecionado].titulo}</h2></Card.Title>
         <Card.Body><p> {conteudo[itemSelecionado].texto.split('\n').map((linha, index) => (
                     <span key={index}>
