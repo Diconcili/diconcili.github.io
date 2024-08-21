@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import Perfil from './Perfil'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import { useState } from 'react';
+import React from 'react';
+import Perfil from './Perfil';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Apresentacao from './Apresentacao';
